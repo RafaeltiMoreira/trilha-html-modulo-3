@@ -37,7 +37,7 @@ Este desafio propõe a construção de uma página inspirada na Wikipedia, mas c
 - [Plataforma DIO](https://web.dio.me/)
 - [Download do NVDA (Leitor de Tela)](https://www.nvaccess.org/download/)
 - [Wikipedia](https://pt.wikipedia.org/)
-- [GitHub Pages](https://github.com/RafaeltiMoreira)
+- [Deploy GitHub Pages](https://rafaeltimoreira.github.io/trilha-html-modulo-3/)
 
 ## 🛠 Tecnologias
 
