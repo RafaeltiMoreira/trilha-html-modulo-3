@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color:blue; 
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar content-section anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    display: flex;          
+    align-items: center;     
+    justify-content: center; 
+    gap: 20px;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+.logo-dio {
+    width: 240px;
+}
+
+.logo-ex-css {
+    width: 740px;
+}
+
+.logo-css {
+    width: 240px;
+}
+
+.logo-ex-html, .logo-ex-tags {
+    width: 640px;
+}
+
+.logo-html {
+    width: 340px;
+}
+
+.display-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-dio {
+    background-color: #DE1B5F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button-dio:hover {
+    background-color: #c01753;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 0.9em;
+    border: 1px solid #cdcdcd;
+    padding: 8px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.voltar-topo {
+    color: blue;
+    padding: 8px 12px;
+    border: solid 1px blue;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+}
